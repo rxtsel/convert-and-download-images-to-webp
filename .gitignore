@@ -1,0 +1,49 @@
+# Ignorar archivos y directorios generados por Python y el entorno de desarrollo
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ignorar archivos y directorios generados por el entorno de desarrollo
+.idea/
+.vscode/
+*.pydevproject
+*.pydevworkspace
+.DS_Store
+
+# Ignorar archivos de entorno y configuración
+.env
+.env.*
+*.env
+*.env.*
+
+# Ignorar archivos de registro y salida
+*.log
+logs/
+log/
+
+# Ignorar archivos de dependencias y entorno virtual
+venv/
+env/
+env.bak/
+env1/
+env2/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignorar archivos de salida y compilados
+*.bak
+*.swp
+*.tmp
+*.swo
+*.webp
+
+# Ignorar archivos específicos
+config.ini
+credentials.json
+
